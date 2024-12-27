@@ -1,0 +1,147 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    
+}
+.container{
+    background-color: #ccc;
+    height: 100vh;
+    padding-top: 50px;
+}
+.content{
+    width: 32%;
+    height: 500px;
+   
+    margin-left: 35%;
+   background-color:white;
+   box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    padding: 6px 10px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: white;
+    
+    box-shadow: rgba(1, 1, 1, 0.1) 4px 3px 5px;
+    border-radius: 10px;
+
+}
+.name{
+    display: flex;
+
+}
+
+.lastname{
+    margin-left: 90px;
+}
+.email{
+   display: flex;
+}
+
+
+#jobrole{
+    height:30px;
+    width: 162%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+.jobb{
+    margin-left: 90px;
+    
+}
+
+.city{
+ 
+    display: flex;
+    
+}
+
+
+
+.pin{
+    margin-left: 90px;
+    
+}
+.dob{
+    display: flex;
+    
+}
+.cv{
+    margin-left: 80px;
+    
+    
+
+}
+.cv input{
+    
+    
+    padding: 2px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    font-size: 15px;
+    width:50%;
+}
+
+.apply button{
+    margin-top: 25px;
+    margin-left: 80%;
+    border-color: transparent;
+    font-size: small;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+.d{
+    width: 40%;
+}
+
+.content input{
+    height: 30px;
+    width: 130%;
+    background-color: white;
+   
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+    
+}
+.content h1{
+    font-size: xx-large;
+    
+}
+.adress input{
+    width: 97%;
+    height: 60px;
+    padding:4px;
+}
+.head{
+    display: flex;
+    margin-top: 20px;
+
+}
+.head h3{
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.dob input{
+    width: 125%;
+}
+input:focus {
+    outline-color: red;
+}
+.cv input[type="file"] {
+    width: 94%; 
+}
+.move{
+    margin-left: 20px;
+}
+.apply button:hover{
+    cursor: pointer;
+}
+input{
+    padding: 5px ;
+}
