@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.content{
+    height: 100vh;
+    background-image: url(image1.png);
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.textbg{
+    
+   
+   
+    justify-content: center;
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.second{
+    background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: center;
+}
+.second p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  
+  
+}
+.im2{
+    background-image: url("image2.png");
+    background-attachment: fixed;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second2{
+    background-color: #282e34;
+    color: #ddd;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: center;
+}
+.second2 p2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  
+}
+.im3{
+    background-image: url("image3.png");
+    background-attachment: fixed;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second3{
+    background-color: #282e34;
+    color: #ddd;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: center;
+}
+.second3 p3{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+}
